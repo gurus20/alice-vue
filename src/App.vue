@@ -6,18 +6,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 
-import * as Vue from "vue";
-import axios from "axios";
-import VueAxios from "vue-axios";
-import App from "./App.vue";
-
-const app = Vue.createApp(App);
-app.use(VueAxios, axios);
-
-axios.get("http://localhost:5000/myorders").then((response) => {
-  console.log(response);
-});
-
 export default {
   name: "App",
 };
