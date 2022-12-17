@@ -3,6 +3,7 @@
     <HeaderComp />
     <MessageComp />
     <SpecialityComp />
+    <GetStarted />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import HeaderComp from './assist/HeaderComp.vue' 
 import MessageComp from './assist/MessageComp.vue' 
 import SpecialityComp from './assist/SpecialityComp.vue'
+import GetStarted from './assist/GetStarted.vue'
 
 export default {
   name: "HomeView",
   components: {
     HeaderComp,
     MessageComp,
-    SpecialityComp
+    SpecialityComp,
+    GetStarted
   }
 };
 </script>
