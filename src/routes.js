@@ -4,6 +4,7 @@ import HomeView from './components/HomeView.vue'
 import AboutView from './components/AboutView.vue'
 import OrderView from './components/OrderView.vue'
 import HelpView from './components/HelpView.vue'
+import OrderNow from './components/OrderNow.vue'
 
 const routes = [
     {
@@ -26,7 +27,13 @@ const routes = [
         path: '/help',
         component: HelpView
     },
+    {
+        name: 'OrderNow',
+        path: '/ordernow',
+        component: OrderNow
+    },
 ];
+
 
 const router = createRouter({
     history: createWebHistory(),

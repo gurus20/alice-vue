@@ -9,7 +9,7 @@
             class="form-control me-3"
             name="search"
             id="search"
-            placeholder="Search coffee or tea..."
+            placeholder="Enter Email..."
           />
           <input
             type="submit"

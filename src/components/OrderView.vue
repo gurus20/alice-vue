@@ -3,7 +3,10 @@
     <HeaderComp />
     <div class="container" v-if="mydata">
       <div class="col-10 m-auto mt-4">
-        <p class="h4 mb-5">ORDER TOKEN - {{ mydata.token }}</p>
+        <div class="mb-5 d-flex justify-content-between align-items-center">
+        <p class="h4">ORDER TOKEN - {{ mydata.token }}</p>
+        <router-link to="/ordernow" class="btn btn-success btn-sm ">Add New</router-link>
+        </div>
 
         <p class="h5 mb-2">Order List</p>
         <table class="table table-bordered border mb-5" style="table-layout: fixed">
@@ -50,12 +53,12 @@
         </table>
       </div>
     </div>
-    <div v-else>
+    <div v-else style="height: 70vh" class="d-flex align-items-center">
       <div class="mt-5 col-6 mx-auto text-center">
         <p class="h4 fst-italic text-secondary">
           You Haven't any Order Yet! Order Now
         </p>
-        <a href="#" class="btn btn-success btn-sm mt-3">Order Now</a>
+        <router-link to="/ordernow" class="btn btn-success btn-sm mt-3">OrderNow</router-link>
       </div>
     </div>
   </div>
@@ -82,7 +85,6 @@ export default {
   },
   mounted() {
     axios.get("http://localhost:8000/myorders/").then((response) => {
-      console.log(typeof response.data);
       this.mydata = JSON.parse(response.data);
     });
   },
