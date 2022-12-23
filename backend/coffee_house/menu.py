@@ -5,25 +5,25 @@ menu_items = [
   {
     "img_src": "Bestseller",
     "order_name": "Java Chip Frappuccino",
-    "order_desc": "We blend mocha sauce and Frappuccino® chips with Frappuccino...",
+    "order_desc": "We blend mocha sauce and Frappuccino® chips with Frappuccino..."[:60],
     "order_price": "351.75",
   },
   {
     "img_src": "Drinks",
-    "order_name": "Cold Coffee",
-    "order_desc": "We blend mocha sauce and Frappuccino® chips with Frappuccino...",
-    "order_price": "351.75",
+    "order_name": "Caffe Americano",
+    "order_desc": "Rich in flavour, full-bodied espresso with hot water in true European style."[:60],
+    "order_price": "252.00",
   },
   {
     "img_src": "Cappuccino",
     "order_name": "Cappuccino",
-    "order_desc": "Dark, Rich in flavour espresso lies in wait under a smoothed and stretched layer of thick foam. ",
+    "order_desc": "Dark, Rich in flavour espresso lies in wait under a smoothed and stretched layer of thick foam."[:60],
     "order_price": "273.00",
   },
   {
     "img_src": "CaffeLatte",
     "order_name": "Caffe Latte",
-    "order_desc": "Our dark, Rich in flavour espresso balanced with steamed milk and a light layer of foam. A perfect coffee warm up.",
+    "order_desc": "Our dark, Rich in flavour espresso balanced with steamed milk and a light layer of foam. A perfect coffee warm up."[:60],
     "order_price": "273.00",
   },
 ]

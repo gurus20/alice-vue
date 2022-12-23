@@ -5,7 +5,7 @@
       <p class="h5 my-3 text-center" style="#553939">Our Offerings at Best</p>
 
       <div class="mt-3 d-flex justify-content-between">
-        <a href="#" class="a-hover-bg rounded-4 text-secondary">
+        <router-link to="/ordernow" class="a-hover-bg rounded-4 text-secondary">
           <div class="p-4 text-center">
             <img
               src="../../assets/images/Bestseller.jpg"
@@ -15,9 +15,9 @@
             />
             <p class="mb-0 mt-3">Bestseller</p>
           </div>
-        </a>
+        </router-link>
 
-        <a href="#" class="a-hover-bg rounded-4 text-secondary">
+        <router-link to="/ordernow" class="a-hover-bg rounded-4 text-secondary">
           <div class="p-4 text-center">
             <img
               src="../../assets/images/Drinks.jpg"
@@ -27,9 +27,9 @@
             />
             <p class="mb-0 mt-3">Drinks</p>
           </div>
-        </a>
+        </router-link>
 
-        <a href="#" class="a-hover-bg rounded-4 text-secondary">
+        <router-link to="/ordernow" class="a-hover-bg rounded-4 text-secondary">
           <div class="p-4 text-center">
             <img
               src="../../assets/images/ReadyToEat.jpg"
@@ -39,9 +39,9 @@
             />
             <p class="mb-0 mt-3">Ready To Eat</p>
           </div>
-        </a>
+        </router-link>
 
-        <a href="#" class="a-hover-bg rounded-4 text-secondary">
+        <router-link to="/ordernow" class="a-hover-bg rounded-4 text-secondary">
           <div class="p-4 text-center">
             <img
               src="../../assets/images/Food.jpg"
@@ -51,8 +51,8 @@
             />
             <p class="mb-0 mt-3">Food</p>
           </div>
-        </a>
-        <a href="#" class="a-hover-bg rounded-4 text-secondary">
+        </router-link>
+        <router-link to="/ordernow" class="a-hover-bg rounded-4 text-secondary">
           <div class="p-4 text-center">
             <img
               src="../../assets/images/Merchandise.jpg"
@@ -62,8 +62,8 @@
             />
             <p class="mb-0 mt-3">Merchandise</p>
           </div>
-        </a>
-        <a href="#" class="a-hover-bg rounded-4 text-secondary">
+        </router-link>
+        <router-link to="/ordernow" class="a-hover-bg rounded-4 text-secondary">
           <div class="p-4 text-center">
             <img
               src="../../assets/images/CoffeeAtHome.jpg"
@@ -73,7 +73,7 @@
             />
             <p class="mb-0 mt-3">Coffee At Home</p>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>
