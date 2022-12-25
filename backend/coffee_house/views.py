@@ -15,8 +15,10 @@ order3 = Order()
 @csrf_exempt
 def ordernow(request):
   if request.method == 'POST':
-    pass
-  return JsonResponse({'status': 'ok'})
+    order_id = request.POST.get('order_id')
+    
+
+  return JsonResponse({'status': 'ok', 'order_id': order_id }, safe=False)
 
 def get_menu(request):
   return JsonResponse(menu_items, safe=False)
